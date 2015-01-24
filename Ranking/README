@@ -1,0 +1,9 @@
+ranking.txt file is ranking of all images in three classes (0,1,2)
+
+ranking_5.txt file is ranking of all images in five classes (0,1,2,3,4)
+
+train and test files are training and test images used by networks.
+
+
+
+

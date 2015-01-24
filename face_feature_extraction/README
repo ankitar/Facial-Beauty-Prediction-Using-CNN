@@ -1,0 +1,20 @@
+Their are three main files to run any network:
+
+train_facenet.sh - it is a shell script which run the network defined in (name)solver.prototxt file. In our scenerio solver file is facenet_solver.prototxt
+
+(name)solver.prototxt - it defines the learning rate, number of iteration and different threshold parameters needed by network. It also give the name of file which has all the network information. In our case network is defined in facenet_train_test.prototxt.
+
+facenet_train_text.prototxt - It defines the network layers. All layers steps are defined in this.
+
+We have tested our results for different kind of networks. The solver and network file for these networks are in differnet folders in this directory. Just take out files from these folders to this directory to run the corresponding network.
+
+facenet_different_layers.py - This is a python code which we have used to visualize the effect of filters at different layers. Put this file in examples folder of caffe directory to see the results or change the path inside the file.
+
+facenet_corr.py - This code finds pearson correlation in test data. Change the path in the file to get results.
+
+facenet_deploy.prototxt - This file is used by above two python codes to run  already trained model on the test data. 
+
+
+
+
+
